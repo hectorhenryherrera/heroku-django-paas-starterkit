@@ -38,6 +38,7 @@ ALLOWED_HOSTS = [domain for domain in ALLOWED_HOSTS_STRING.split(',')]
 # Application definition
 
 INSTALLED_APPS = [
+    'cocacola',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
